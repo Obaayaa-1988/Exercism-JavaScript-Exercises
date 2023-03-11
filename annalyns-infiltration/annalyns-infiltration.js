@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 //
 // ☝🏽 The line above enables type checking for this file. Various IDEs interpret
 // the @ts-check directive. It will give you helpful autocompletion on the web
@@ -27,7 +27,8 @@
  * @return {boolean} Whether or not you can execute a fast attack.
  */
 export function canExecuteFastAttack(knightIsAwake) {
-  throw new Error('Remove this line and implement the function');
+  
+  
 }
 
 /**
