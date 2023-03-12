@@ -44,7 +44,8 @@ export function canExecuteFastAttack(knightIsAwake) {
 export function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake) {
   const knightIsAwake = false;
   const archerIsAwake = true;
-  return prisonerIsAwake = false;
+  const prisonerIsAwake = false;
+  return archerIsAwake || prisonerIsAwake ;
 
 }
 
@@ -58,7 +59,8 @@ export function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake) {
  */
 export function canSignalPrisoner(archerIsAwake, prisonerIsAwake) {
   const archerIsAwake = false;
-  return prisonerIsAwake = true;
+  const prisonerIsAwake = true;
+  return 
 }
 
 /**
