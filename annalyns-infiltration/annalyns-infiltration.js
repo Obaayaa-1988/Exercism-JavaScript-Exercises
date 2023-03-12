@@ -28,7 +28,7 @@
  */
 export function canExecuteFastAttack(knightIsAwake) {
   const knightIsAwake = true;
-  return knightIsAwake = !true;
+  return !knightIsAwake;
 
 }
 
@@ -44,7 +44,7 @@ export function canExecuteFastAttack(knightIsAwake) {
 export function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake) {
   const knightIsAwake = false;
   const archerIsAwake = true;
-  const prisonerIsAwake = false;
+  return prisonerIsAwake = false;
 
 }
 
@@ -57,7 +57,8 @@ export function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake) {
  * @returns {boolean} Whether or not you can send a signal to the prisoner.
  */
 export function canSignalPrisoner(archerIsAwake, prisonerIsAwake) {
-  throw new Error('Remove this line and implement the function');
+  const archerIsAwake = false;
+  return prisonerIsAwake = true;
 }
 
 /**
