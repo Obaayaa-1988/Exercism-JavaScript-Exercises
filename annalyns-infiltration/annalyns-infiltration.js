@@ -60,7 +60,7 @@ export function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake) {
 export function canSignalPrisoner(archerIsAwake, prisonerIsAwake) {
   const archerIsAwake = false;
   const prisonerIsAwake = true;
-  return 
+  return prisonerIsAwake;
 }
 
 /**
@@ -79,5 +79,9 @@ export function canFreePrisoner(
   prisonerIsAwake,
   petDogIsPresent
 ) {
-  throw new Error('Remove this line and implement the function');
+  const knightIsAwake = false;
+  const archerIsAwake = true;
+  const prisonerIsAwake = false;
+  const petDogIsPresent = false;
+  return petDogIsPresent;
 }
