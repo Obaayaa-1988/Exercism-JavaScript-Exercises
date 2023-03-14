@@ -45,7 +45,8 @@ export function canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake) {
   const knightIsAwake = false;
   const archerIsAwake = true;
   const prisonerIsAwake = false;
-  return archerIsAwake || prisonerIsAwake ;
+  // return archerIsAwake || prisonerIsAwake ;
+  return archerIsAwake;
 
 }
 
